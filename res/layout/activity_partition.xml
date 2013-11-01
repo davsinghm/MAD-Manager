@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <EditText
+                android:id="@+id/extSize"
+                style="?editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:inputType="number"
+                android:maxLength="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dip"
+                android:text="@string/EXT_SIZE"
+                android:textAppearance="@style/TextAppearance.Small" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:text="@string/MB"
+            android:textAppearance="@style/TextAppearance.Medium"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <EditText
+                android:id="@+id/swapSize"
+                style="?editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:inputType="number"
+                android:maxLength="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dip"
+                android:text="@string/SWAP_SIZE"
+                android:textAppearance="@style/TextAppearance.Small" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:text="@string/MB"
+            android:textAppearance="@style/TextAppearance.Medium"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/extGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/ext2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="EXT2" />
+
+        <RadioButton
+            android:id="@+id/ext3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="EXT3" />
+
+        <RadioButton
+            android:id="@+id/ext4"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:checked="true"
+            android:text="EXT4" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginBottom="16dip"
+        android:layout_weight="1.0"
+        android:text="@string/partition_sdcard_warning"
+        android:gravity="bottom"
+        android:textAppearance="@style/TextAppearance.Small" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/DefaultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/partition"
+        android:textColor="?buttonTextColor" />
+
+</LinearLayout>

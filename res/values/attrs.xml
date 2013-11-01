@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="ratingBarStyleSmall" format="reference" />
+    <attr name="listChoiceBackgroundIndicator" format="reference" />
+    <attr name="checkBoxStyle" format="reference" />
+    <attr name="holoGreen" format="reference|color" />
+    <attr name="holoRed" format="reference|color" />
+    <attr name="holoBlue" format="reference|color" />
+    <attr name="newDownloadHeader" format="reference|color" />
+    <attr name="newDownloadListBg" format="reference|color" />
+    <attr name="newDownloadSeperator" format="reference|color" />
+    <attr name="newDownloadSeperatorBg" format="reference|color" />
+    <attr name="newDownloadCommentsSeperator" format="reference|color" />
+    <attr name="holoOrange" format="reference|color" />
+    <attr name="editTextStyle" format="reference" />
+    <attr name="buttonTextColor" format="reference|color" />
+    <attr name="dialogTextColor" format="reference|color" />
+    <attr name="madTextColorSecondary" format="reference|color" />
+    <attr name="rightArrow" format="reference" />
+    <attr name="madListSeperator" format="reference" />
+
+</resources>

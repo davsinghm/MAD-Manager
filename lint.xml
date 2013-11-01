@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src\co\madteam\madmanager\Command.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src\co\madteam\madmanager\dm\DownloadFileService.java" />
+        <ignore path="src\co\madteam\madmanager\dm\DownloadServiceNew.java" />
+        <ignore path="src\co\madteam\madmanager\dm\NotificationBuilder.java" />
+    </issue>
+    <issue id="SdCardPath">
+        <ignore path="src\co\madteam\madmanager\Command.java" />
+        <ignore path="src\co\madteam\madmanager\utilities\MadEnvironment.java" />
+    </issue>
+</lint>

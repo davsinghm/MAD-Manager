@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="12dip"
+    android:background="?newDownloadSeperatorBg"
+    android:gravity="top" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="?newDownloadSeperator" />
+
+</LinearLayout>

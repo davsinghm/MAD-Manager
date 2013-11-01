@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Dark" parent="@style/MAD_Theme.Dark">
+        <item name="dialogTextColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Theme.Light" parent="@style/MAD_Theme.Light">
+        <item name="dialogTextColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Theme.Light.DarkActionBar" parent="@style/MAD_Theme.Light.DarkActionBar">
+        <item name="dialogTextColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="MAD.TextAppearance.Data" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?textColorPrimary</item>
+    </style>
+
+</resources>

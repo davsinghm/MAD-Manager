@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="update_freq">
+        <item>Every 30 minutes</item>
+        <item>Every hour</item>
+        <item>Every 6 hours</item>
+        <item>Every 12 hours</item>
+        <item>Every day</item>
+        <item>Every 48 hours</item>
+    </string-array>
+
+</resources>

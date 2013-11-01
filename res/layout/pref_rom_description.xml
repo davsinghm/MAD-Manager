@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="134dip" >
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/contentDescription"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/background"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/romicon"
+                android:layout_width="65.0dip"
+                android:layout_height="65.0dip"
+                android:contentDescription="@string/contentDescription"
+                android:src="@drawable/android" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.Medium"
+                    android:textSize="20.0sp" />
+
+                <TextView
+                    android:id="@+id/devname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.Small" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="5.0dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RatingBar
+                    android:id="@+id/ratingBarROM"
+                    style="?ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/rateCount"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="1.0"
+                    android:textAppearance="@style/TextAppearance.Small" />
+
+                <TextView
+                    android:id="@+id/rldownloads"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.Small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lastest_build"
+                    android:textAppearance="@style/TextAppearance.Small"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lastestBuild"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.Small" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5.0dip"
+        android:textAppearance="@style/TextAppearance.Small" />
+
+</LinearLayout>

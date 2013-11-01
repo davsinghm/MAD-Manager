@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    
+    android:layout_width="320dip"
+    android:layout_height="50dip"
+    android:gravity="center_vertical"
+    
+    android:paddingLeft="8dip"
+    android:baselineAligned="false"
+    android:id="@+id/main"
+    
+    android:paddingRight="?android:scrollbarSize" >
+
+
+  <com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a152332e6a17ec0"
+                         ads:adSize="BANNER"
+                         ads:loadAdOnCreate="true"/>
+    
+
+</LinearLayout>

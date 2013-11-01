@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MAD.Comment.Author" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?textColorPrimary</item>
+    </style>
+
+    <style name="EditText.Dark" parent="@android:style/Widget.EditText">
+        <item name="android:textAppearance">@style/TextAppearance.EditText</item>
+        <item name="android:background">@drawable/edit_text_holo_dark</item>
+        <item name="android:textColor">@color/abs__primary_text_holo_dark</item>
+    </style>
+
+    <style name="EditText.Light" parent="@android:style/Widget.EditText">
+        <item name="android:textAppearance">@style/TextAppearance.EditText</item>
+        <item name="android:background">@drawable/edit_text_holo_light</item>
+        <item name="android:textColor">@color/abs__primary_text_holo_light</item>
+    </style>
+
+    <style name="CheckBox.Dark" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_check_holo_dark</item>
+    </style>
+
+    <style name="CheckBox.Light" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_check_holo_light</item>
+    </style>
+
+    <style name="TextAppearance.EditText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColorHighlight">#6633b5e5</item>
+        <item name="android:textColorHint">#ff808080</item>
+        <item name="android:textColorLink">#ff33b5e5</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="MAD.TextAppearance.DM" parent="@android:style/TextAppearance.Small">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#fff3f3f3</item>
+        <item name="android:textSize">15.0sp</item>
+    </style>
+
+    <style name="TextAppearance.Large" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">?textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.PrefTitleSmall" parent="@style/TextAppearance.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?madTextColorSecondary</item>
+    </style>
+
+    <style name="Holo.ProgressBar.Horizontal" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">16.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_holo</item>
+        <item name="android:progressDrawable">@drawable/progress_horizontal_holo_dark</item>
+        <item name="android:minHeight">16.0dip</item>
+    </style>
+
+    <style name="MAD.TextAppearance.Data" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">?textColorPrimary</item>
+    </style>
+
+    <style name="RomIcon">
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginRight">8dip</item>
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="DefaultButton">
+        <item name="android:background">@drawable/btn_default_bg</item>
+        <item name="android:textColor">@color/abs__background_holo_light</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:minWidth">64.0dip</item>
+        <item name="android:minHeight">44.0dip</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent" parent="@android:style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Info" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+
+    <!-- MAIN THEME -->
+    <style name="MAD_Theme.Dark" parent="@style/Theme.Sherlock">
+        <item name="android:listSeparatorTextViewStyle">@style/MAD.ListSeparator</item>
+        <item name="android:listViewStyle">@style/MAD.ListViewStyle.Dark</item>
+        <item name="ratingBarStyleSmall">@style/MAD.Widget.Holo.RatingBar.Small</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abs__list_selector_holo_dark</item>
+        <item name="checkBoxStyle">@style/CheckBox.Dark</item>
+        <item name="holoGreen">@color/holo_green_dark</item>
+        <item name="holoRed">@color/holo_red_dark</item>
+        <item name="holoBlue">@color/holo_blue_dark</item>
+        <item name="holoOrange">@color/holo_orange_dark</item>
+        <item name="newDownloadHeader">@color/newdownload_header_color_dark</item>
+        <item name="newDownloadListBg">@color/newdownload_list_bg_dark</item>
+        <item name="newDownloadSeperator">@color/newdownload_seperator_dark</item>
+        <item name="newDownloadSeperatorBg">@color/newdownload_seperator_bg_dark</item>
+        <item name="newDownloadCommentsSeperator">@color/newdownload_seperator_comments_dark</item>
+        <item name="editTextStyle">@style/EditText.Dark</item>
+        <item name="buttonTextColor">@color/abs__background_holo_light</item>
+        <item name="dialogTextColor">@color/abs__primary_text_holo_dark</item>
+        <item name="madTextColorSecondary">@color/secondary_text_holo_dark</item>
+        <item name="rightArrow">@drawable/ic_more_arrow_right_dark</item>
+        <item name="madListSeperator">@drawable/mad_list_selector</item>
+    </style>
+
+    <style name="MAD_Theme.Light" parent="@style/Theme.Sherlock.Light">
+        <item name="android:listSeparatorTextViewStyle">@style/MAD.ListSeparator.White</item>
+        <item name="android:listViewStyle">@style/MAD.ListViewStyle.Light</item>
+        <item name="ratingBarStyleSmall">@style/MAD.Widget.Holo.Light.RatingBar.Small</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abs__list_selector_holo_light</item>
+        <item name="checkBoxStyle">@style/CheckBox.Light</item>
+        <item name="holoGreen">@color/holo_green_light</item>
+        <item name="holoRed">@color/holo_red_light</item>
+        <item name="holoBlue">@color/holo_blue_light</item>
+        <item name="holoOrange">@color/holo_orange_light</item>
+        <item name="newDownloadHeader">@color/newdownload_header_color_light</item>
+        <item name="newDownloadListBg">@color/newdownload_list_bg_light</item>
+        <item name="newDownloadSeperator">@color/newdownload_seperator_light</item>
+        <item name="newDownloadSeperatorBg">@color/newdownload_seperator_bg_light</item>
+        <item name="newDownloadCommentsSeperator">@color/newdownload_seperator_comments_light</item>
+        <item name="editTextStyle">@style/EditText.Light</item>
+        <item name="buttonTextColor">@color/abs__background_holo_dark</item>
+        <item name="dialogTextColor">@color/abs__primary_text_holo_dark</item>
+        <item name="madTextColorSecondary">@color/secondary_text_holo_light</item>
+        <item name="rightArrow">@drawable/ic_more_arrow_right</item>
+        <item name="madListSeperator">@drawable/mad_list_selector_light</item>
+    </style>
+
+    <style name="MAD_Theme.Light.DarkActionBar" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="android:listSeparatorTextViewStyle">@style/MAD.ListSeparator.White</item>
+        <item name="android:listViewStyle">@style/MAD.ListViewStyle.Light</item>
+        <item name="ratingBarStyleSmall">@style/MAD.Widget.Holo.Light.RatingBar.Small</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abs__list_selector_holo_light</item>
+        <item name="checkBoxStyle">@style/CheckBox.Light</item>
+        <item name="holoGreen">@color/holo_green_light</item>
+        <item name="holoRed">@color/holo_red_light</item>
+        <item name="holoBlue">@color/holo_blue_light</item>
+        <item name="holoOrange">@color/holo_orange_light</item>
+        <item name="newDownloadHeader">@color/newdownload_header_color_light</item>
+        <item name="newDownloadListBg">@color/newdownload_list_bg_light</item>
+        <item name="newDownloadSeperator">@color/newdownload_seperator_light</item>
+        <item name="newDownloadSeperatorBg">@color/newdownload_seperator_bg_light</item>
+        <item name="newDownloadCommentsSeperator">@color/newdownload_seperator_comments_light</item>
+        <item name="editTextStyle">@style/EditText.Light</item>
+        <item name="buttonTextColor">@color/abs__background_holo_dark</item>
+        <item name="dialogTextColor">@color/abs__primary_text_holo_dark</item>
+        <item name="madTextColorSecondary">@color/secondary_text_holo_light</item>
+        <item name="rightArrow">@drawable/ic_more_arrow_right</item>
+        <item name="madListSeperator">@drawable/mad_list_selector_light</item>
+    </style>
+
+    <!-- <= GINGERBREAD THEME -->
+
+    <style name="Theme.Dark" parent="@style/MAD_Theme.Dark">
+        <item name="android:windowBackground">@drawable/window_background</item>
+    </style>
+
+    <style name="Theme.Light" parent="@style/MAD_Theme.Light">
+        <item name="android:windowBackground">@color/abs__background_holo_light</item>
+    </style>
+
+    <style name="Theme.Light.DarkActionBar" parent="@style/MAD_Theme.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/abs__background_holo_light</item>
+    </style>
+
+    <style name="MAD.ListSeparator" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/list_section_divider_holo_dark</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="MAD.ListSeparator.White" parent="@style/MAD.ListSeparator">
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:background">@drawable/list_section_divider_holo_light</item>
+    </style>
+
+    <style name="MAD.ListViewStyle.Dark" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">?listChoiceBackgroundIndicator</item>
+        <item name="android:divider">@drawable/abs__list_divider_holo_dark</item>
+    </style>
+
+    <style name="MAD.ListViewStyle.Light" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">?listChoiceBackgroundIndicator</item>
+        <item name="android:divider">@drawable/abs__list_divider_holo_light</item>
+    </style>
+
+    <style name="MAD.Widget.Holo.RatingBar.Small" parent="@android:style/Widget">
+        <item name="android:maxHeight">14.0dip</item>
+        <item name="android:minHeight">14.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_small_holo_dark</item>
+        <item name="android:progressDrawable">@drawable/ratingbar_small_holo_dark</item>
+        <item name="android:thumb">@null</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+
+    <style name="MAD.Widget.Holo.Light.RatingBar.Small" parent="MAD.Widget.Holo.RatingBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_small_holo_light</item>
+        <item name="android:progressDrawable">@drawable/ratingbar_small_holo_light</item>
+    </style>
+
+</resources>

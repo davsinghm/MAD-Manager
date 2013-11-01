@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="newdownload_header_color_dark">#ff131518</color>
+    <color name="newdownload_header_color_light">#ffa7a7a7</color>
+    <color name="newdownload_list_bg_dark">#ff1a1d22</color>
+    <color name="newdownload_list_bg_light">@color/abs__background_holo_light</color>
+    <color name="newdownload_seperator_bg_dark">@color/newdownload_header_color_dark</color>
+    <color name="newdownload_seperator_bg_light">#ffc9c9c9</color>
+    <color name="newdownload_seperator_dark">#ff24292f</color>
+    <color name="newdownload_seperator_light">#ffd6d6d6</color>
+    <color name="newdownload_seperator_comments_dark">#30ffffff</color>
+    <color name="newdownload_seperator_comments_light">@color/newdownload_seperator_bg_light</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    
+</resources>

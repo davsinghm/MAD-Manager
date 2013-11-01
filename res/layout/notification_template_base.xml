@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="64.0dip"
+ >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="64.0dip"
+        android:layout_height="64.0dip"
+        android:scaleType="center"
+        android:contentDescription="@string/contentDescription" />
+        <!-- android:background="@drawable/notification_template_icon_bg" -->
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:gravity="top"
+        android:minHeight="64.0dip"
+        android:orientation="vertical"
+        android:paddingBottom="2.0dip"
+        android:paddingRight="8.0dip"
+        android:paddingTop="2.0dip" >
+
+        <LinearLayout
+            android:id="@+id/line0"
+            android:layout_width="fill_parent"
+            android:layout_height="6dip" />
+             
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Title" />
+
+            <DateTimeView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.0"
+                android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Info"
+                android:gravity="center"  
+                android:singleLine="true" 
+                android:paddingLeft="8.0dip" 
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-2.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="-2.0dip"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.StatusBar.EventContent"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="@style/Holo.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="12.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="2.0dip"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/line3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textb"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.StatusBar.EventContent" />
+            
+            <TextView
+                android:id="@+id/texts"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:singleLine="true"
+                android:visibility="gone" 
+                android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Info" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.0"
+                android:gravity="center"
+                android:paddingLeft="8.0dip"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Info" />
+
+            <ImageView
+                android:id="@+id/right_icon"
+                android:layout_width="16.0dip"
+                android:layout_height="16.0dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8.0dip"
+                android:layout_weight="0.0"
+                android:scaleType="centerInside"
+                android:contentDescription="@string/contentDescription"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="48dip"
+    android:baselineAligned="false"
+    android:paddingLeft="16dip"
+    android:paddingRight="?android:scrollbarSize"
+    android:background="?newDownloadListBg" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="44.0dip"
+            android:layout_height="44.0dip"
+            android:layout_gravity="top"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="8dip"
+            android:contentDescription="@string/contentDescription" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:paddingBottom="6.0dip"
+        android:paddingRight="16dip"
+        android:paddingTop="6.0dip" >
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:textAppearance="@style/MAD.Comment.Author" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+
+            <RatingBar
+                android:id="@+id/ratingBarComment"
+                style="?ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/cmtTimestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dip"
+                android:textAppearance="@style/TextAppearance.Small"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

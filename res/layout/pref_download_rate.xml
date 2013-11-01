@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?madListSeperator" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="48dip"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="16.0dip" >
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:textColor="?holoBlue"
+            android:textSize="17.0sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            
+            <ImageView
+                android:id="@+id/rightArrow"
+                android:src="?rightArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/contentDescription" />
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="12dip"
+        android:background="?newDownloadSeperatorBg"
+        android:gravity="top" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="?newDownloadSeperator" />
+    </LinearLayout>
+
+</LinearLayout>

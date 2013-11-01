@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="48dip"
+    android:paddingLeft="8dip"
+    android:paddingRight="?android:scrollbarSize" >
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:paddingBottom="6.0dip"
+        android:paddingRight="8dip"
+        android:paddingTop="6.0dip" >
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@android:id/title"
+            android:layout_below="@android:id/title"
+            android:textColorLink="@color/holo_purple"
+            android:textAppearance="@style/TextAppearance.Small" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" />
+</LinearLayout>

@@ -1,9 +1,7 @@
 # MAD Manager
 Copyright 2012-2013
 
-This app is MAD Team's ROM Manager
-
-This app needs ROOT Access.
+This app is MAD Team's ROM Manager for Android 2.2+. Requires ROOT access.
 
 Features:
 * Flash full ClockworkMod recovery image.
@@ -16,12 +14,15 @@ Features:
 * Support Goo.im Links (with permission)
 
 # Screenshots
-![alt text](/../master/screenshots/1.jpg?raw=true)
-![alt text](/../master/screenshots/2.jpg?raw=true)
-![alt text](/../master/screenshots/3.jpg?raw=true)
-![alt text](/../master/screenshots/4.jpg?raw=true)
-![alt text](/../master/screenshots/5.jpg?raw=true)
-![alt text](/../master/screenshots/6.jpg?raw=true)
+![alt text](/../master/screenshots/1.png?raw=true)
+![alt text](/../master/screenshots/2.png?raw=true)
+![alt text](/../master/screenshots/3.png?raw=true)
+![alt text](/../master/screenshots/4.png?raw=true)
+![alt text](/../master/screenshots/5.png?raw=true)
+![alt text](/../master/screenshots/6.png?raw=true)
+![alt text](/../master/screenshots/7.png?raw=true)
+![alt text](/../master/screenshots/8.png?raw=true)
+![alt text](/../master/screenshots/9.png?raw=true)
 
-## Get it in Play Store!
+## Get it on Play Store!
 https://play.google.com/store/apps/details?id=co.madteam.madmanager

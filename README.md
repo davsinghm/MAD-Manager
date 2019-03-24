@@ -1,9 +1,9 @@
 # MAD Manager
-Copyright 2012-2013
+_Copyright 2012-2013_
 
 This app is MAD Team's ROM Manager for Android 2.2+. Requires ROOT access.
 
-Features:
+**Features:**
 * Flash full ClockworkMod recovery image.
 * Manage ROMs via a handy UI.
 * Organize and perform backups and restores.
@@ -13,7 +13,7 @@ Features:
 * Inbuilt ROM Change Log feature.
 * Support Goo.im Links (with permission)
 
-# Screenshots
+## Screenshots
 ![alt text](/../master/screenshots/1.png?raw=true)
 ![alt text](/../master/screenshots/2.png?raw=true)
 ![alt text](/../master/screenshots/3.png?raw=true)
